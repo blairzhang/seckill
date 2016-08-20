@@ -49,6 +49,7 @@ public class SeckillServiceImpl implements SeckillService {
 
     @Override
     public List<Seckill> getSeckillList() {
+        int i=1/0;
         return seckillDao.queryAll(0, 4);
     }
 
